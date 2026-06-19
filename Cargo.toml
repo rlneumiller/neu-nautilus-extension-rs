@@ -1,0 +1,7 @@
+[workspace]
+resolver = "3"
+
+members = [
+  "nautilus4-extension",
+  "nautilus4-extension-sys"
+]

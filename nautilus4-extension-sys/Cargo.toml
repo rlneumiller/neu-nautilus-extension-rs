@@ -1,0 +1,24 @@
+[package]
+name = "nautilus4-extension-sys"
+version = "0.1.0"
+edition = "2024"
+authors = ["Andrew Shu <talklittle@gmail.com>", "arrel <github.com/rlneumiller>"]
+description = "FFI bindings to libnautilus-extension"
+repository = "https://github.com/rlneumiller/neu-nautilus-extension-rs"
+keywords = ["nautilus", "bindings", "GTK4"]
+categories = ["external-ffi-bindings"]
+license = "GPL-3.0"
+readme = "README.md"
+
+[lib]
+name = "nautilus4_extension_sys"
+
+[dependencies]
+gio-sys = "0.22.0"
+glib-sys = "0.22.6"
+gobject-sys = "0.22.6"
+libc = "0.2.186"
+
+[dependencies.gtk4-sys]
+version = "0.11.3"
+#features = ["v3_20"]
