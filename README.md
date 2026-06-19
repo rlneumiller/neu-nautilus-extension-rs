@@ -1,5 +1,7 @@
 # nautilus4-extension-rs
 
+Borrows heavily from (https://github.com/talklittle/nautilus-extension-rs), which only supported gtk3 at the time)
+
 A Rust workspace providing safe Nautilus extension bindings for GTK4.
 
 This repository contains two workspace members:
